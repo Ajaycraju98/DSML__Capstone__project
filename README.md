@@ -1,5 +1,6 @@
 # DSML__Capstone__project
 This project explains for the final capstone based on the topic name -"Predicting Electric vehicle range based on features".
+
 **Introduction**
 The Electric Vehicle population dataset from Washington Technology Solutions (WaTech) is part of the Washington Open Data Program, which allows all state agencies to publish public data at https://data.wa.gov.Categorical features in the dataset are encoded, while numerical features are transformed using the Yeo-Johnson method to correct skewness. Outliers are handled using a capping technique. Five machine learning regression models are implemented: Linear Regression, Decision Tree, Random Forest, K-Nearest Neighbors, and Gradient Boosting. These models are evaluated using performance metrics such as MAE, MSE, R² score, and RMSE. The objective is to identify the best-performing model and the key features that influence electric vehicle range prediction. This analysis can support companies in developing effective sales and marketing strategies.
 
