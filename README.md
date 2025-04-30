@@ -20,8 +20,19 @@ Source of the data is from Data.gov Machine Learning Repository.
 Link: https://catalog.data.gov/dataset/electric-vehicle-population-data
 
 **Conclusions**
-** The model performed poorly on unseen data.
-** It overfitted to the training data.
-** A negative R² score here would conclude that the model is not generalizing well and needs further tuning or improvements.
+• The Random Forest Regressor achieved the highest performance among all five models with 99% accuracy, demonstrating strong predictive capability for estimating electric vehicle range.
+
+• When evaluated on unseen data, it maintained high accuracy, indicating robust generalization and effective pattern recognition.
+
+• The dataset was clean and well-prepared, with no missing values or duplicates.
+
+• Preprocessing techniques such as feature encoding and scaling contributed to all models achieving over 95% accuracy.
+
+• Hyperparameter tuning had minimal impact on the performance of the Random Forest Regressor, implying it was already well-optimized.
+
+**FUTURE WORK:**
+• Model Maintenance: Regularly refresh the model using recent data to help it stay responsive to evolving trends and user behavior.
+
+• Enhanced Feature Design: Explore the creation of new features or refinement of current ones to uncover deeper insights and improve the model’s predictive performance.
 
 -- The End --
